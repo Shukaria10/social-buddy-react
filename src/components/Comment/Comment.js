@@ -2,7 +2,7 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import CardActionArea from '@material-ui/core/CardActionArea';
-import CardActions from '@material-ui/core/CardActions';
+//import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import Avatar from '@material-ui/core/Avatar';
 import Typography from '@material-ui/core/Typography';
@@ -23,7 +23,7 @@ const useStyles = makeStyles({
 
 const Comment = (props) => {
     
-const{postId,name,email,body} = props.comments;
+const{name,email,body} = props.comments;
 const classes = useStyles();
     return (
         <div>
