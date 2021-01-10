@@ -50,7 +50,7 @@ return (
       </CardActionArea>
       <CardActions>
       
-      {/* <Link to={`/postDetail/${id}`}>Show More </Link> */}
+      
       <Button variant="contained" color="primary" onClick={() => handleclick(id)}>
   Show More 
 </Button>
