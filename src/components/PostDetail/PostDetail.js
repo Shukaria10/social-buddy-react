@@ -32,7 +32,7 @@ const PostDetail = () => {
         fetch(url)
             .then(res => res.json())
             .then(data => setInformation(data))
-    }, [])
+    }, [postDetailId]);
     // fetch data for comments 
     useEffect(() => {
 
@@ -41,7 +41,7 @@ const PostDetail = () => {
             .then(res => res.json())
             .then(data => setComment(data))
 
-    }, [])
+    }, [postDetailId]);
     
     
     
