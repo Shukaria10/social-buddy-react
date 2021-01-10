@@ -33,7 +33,7 @@ const classes = useStyles();
 return (
         <div className="post-show col-md-12">
           <Container maxWidth="sm">
-           <Card className={classes.root} className = "card-container">
+           <Card className={classes.root} >
       <CardActionArea>
         
         <CardContent className="col-md-12">
